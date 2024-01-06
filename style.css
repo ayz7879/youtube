@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid grey;
+    height: 50px;
+}
+.fa-brands{
+    margin-left: 20px;
+    color: red;
+}
+.search{
+    position: relative;
+    left: 1094px;
+    font-size: 25px;
+}
+.profile{
+    position: relative;
+    left: 1125px;
+    font-size: 25px;
+}
+
+.suggestion{
+    height: 50px;
+    border-bottom: 2px solid grey;
+    align-items: center;
+    display: flex;
+}
+.compas{
+    margin-left: 12px;
+    font-size: 30px;
+    padding: 20px;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100px;
+}
+.items h2{
+    border: 2px solid grey;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: lightgrey;
+
+}
+
+.first_images{
+    display: flex;
+    justify-content: space-between;
+}
+.imges img{
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 41px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -33px;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 20px;
+}
+.footer pre{
+    display: block;
+    font-size: 10px;
+}
+.main_fotter{
+    display: flex;
+    gap: 50px;
+}
+
+.last_footer{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    border-top: 2px solid black;
+    font-size: 41px;
+}
+.last1_items{
+    position: relative;
+    left: 7px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 21px;
+
+}
